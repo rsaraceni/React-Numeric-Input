@@ -1,10 +1,12 @@
 import React from 'react';
 
-import InputNumber from './components/InputNumber';
+import ReactNumericInput from './components/ReactNumericInput';
 
 function App() {
   return (
-    <InputNumber />
+    <>
+      <ReactNumericInput />
+    </>
   );
 }
 
